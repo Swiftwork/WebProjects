@@ -1,0 +1,14 @@
+body {
+	background-color: #e5e5e5;
+}
+
+.media-list {
+
+}
+
+.media-list .media {
+	margin: 0;
+	background-color: #fff;
+	padding: 15px;
+	border-radius: 4px;
+}
