@@ -1,0 +1,19 @@
+<div class="gridster playlist-groups" ng-controller="playlistController">
+    <fieldset class="group" data-row="1" data-col="1" data-sizex="1" data-sizey="1" ng-repeat="name in data.getGroupNames()">
+        <legend>{{name}}</legend>
+        <div class="playlist" ng-repeat="playlist in data.getGroup(name)">{{playlist}}</div>
+    </fieldset>
+</div>
+
+<!-- 
+<ul class="media-list" ng-repeat="group in data.getGroupNames()">
+	<li class="media" data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+	  <div class="media-left">
+	    <a href="#"><img class="media-object" src="" alt="{{group}}" /></a>
+	  </div>
+	  <div class="media-body">
+	    <h4 class="media-heading">{{group}}</h4>
+	  </div>
+	</li>
+</ul>
+-->

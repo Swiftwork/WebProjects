@@ -1,0 +1,37 @@
+@import "bootstrap";
+@import "gridster";
+@import "spotify";
+body {
+    background-color: #e5e5e5;
+}
+
+.playlist-groups {}
+
+.playlist-groups .group {
+    cursor: move;
+    padding: 0 15px 15px;
+    border-radius: 4px;
+    border: 4px double #ccc;
+}
+
+.playlist-groups .group legend {
+    margin: 0;
+    padding: 0 6px;
+    width: auto;
+}
+/* --- FORMS --- */
+
+.form-signin {
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+    margin-bottom: 10px;
+}
+
+.form-signin .checkbox {
+    font-weight: normal;
+}
